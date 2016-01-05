@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>phalcon</id>
+    <title>Phalcon PHP framework</title>
+    <version>2.0.9</version>
+    <authors>Phalcon Authors</authors>
+    <owners>Kristof Torfs</owners>
+    <summary>A full-stack PHP framework delivered as a C-extension</summary>
+    <description>Phalcon is an open source, full stack framework for PHP written as a C-extension, optimized for high performance. You don’t need to learn or use the C language, since the functionality is exposed as PHP classes ready for you to use. Phalcon also is loosely coupled, allowing you to use its objects as glue components based on the needs of your application.</description>
+    <projectUrl>https://phalconphp.com</projectUrl>
+    <packageSourceUrl>https://github.com/kristoftorfs/choco-phalcon</packageSourceUrl>
+    <projectSourceUrl>https://github.com/phalcon/cphalcon</projectSourceUrl>
+    <docsUrl>https://docs.phalconphp.com/en/latest/index.html</docsUrl>
+    <bugTrackerUrl>https://github.com/phalcon/cphalcon/issues</bugTrackerUrl>
+    <tags>phalcon php framework</tags>
+    <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/kristoftorfs/choco-phalcon/1c2f47cb2e4fec41cbb3917db90d932b466c9736/phalcon.png</iconUrl>
+    <dependencies>
+      <dependency id="php" version="5.6.16" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
